@@ -1,4 +1,6 @@
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -9,10 +11,10 @@ body {
 }
 
 .container {
-    height: 350px;
+    height: 600px;
     margin: 100px auto 0;
     position: relative;
-    width: 700px;
+    width: 1000px;
 }
 
 .container>input {
@@ -20,7 +22,7 @@ body {
 }
 
 .container .controls {
-    margin-left: 544px;
+    margin-left: 796px;
     position: absolute;
 }
 
@@ -29,8 +31,8 @@ body {
 }
 
 .container label {
-    height: 8px;
-    width: 8px;
+    height: 20px;
+    width: 20px;
     margin: 25px 12px 0 16px;
     position: relative;
     display: inline-block;
@@ -40,8 +42,8 @@ body {
 }
 
 .container label::after {
-    height: 12px;
-    width: 12px;
+    height: 24px;
+    width: 24px;
     left: -4px;
     top: -4px;
     position: absolute;
@@ -91,17 +93,17 @@ body {
 }
 
 .titles {
-    height: 37px;
-    width: 544px;
+    height: 49px;
+    width: 796px;
     overflow: hidden;
     position: relative;
 }
 
 .title {
-    width: 554px;
+    width: 796px;
     margin-top: 13px;
     position: absolute;
-    font-size: 22px;
+    font-size: 30px;
     opacity: 0;
     z-index: 0;
     transition: transform ease-in-out .5s, opacity ease-in-out .5s;
