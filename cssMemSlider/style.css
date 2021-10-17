@@ -5,6 +5,7 @@
 body {
     margin: 0 auto;
     background-color: grey;
+    color: #ddd;
 }
 
 .container {
@@ -83,29 +84,11 @@ body {
     transition: transform ease-in-out .5s, opacity ease-in-out .5s;
 }
 
-
-/* .slide1 {
-    background-image: url(assets/1.jpg);
-} */
-
 .picture {
     display: block;
     max-width: 100%;
     height: auto;
 }
-
-
-/* .slide2 {
-    background-image: url(assets/2.jpg);
-}
-
-.slide3 {
-    background-image: url(assets/3.jpg);
-}
-
-.slide4 {
-    background-image: url(assets/4.jpg);
-} */
 
 .titles {
     height: 37px;
@@ -115,12 +98,10 @@ body {
 }
 
 .title {
-    /*height: 8px;*/
     width: 554px;
-    /* margin: 25px 12px 0 16px;*/
     margin-top: 13px;
     position: absolute;
-    font-size: 24px;
+    font-size: 22px;
     opacity: 0;
     z-index: 0;
     transition: transform ease-in-out .5s, opacity ease-in-out .5s;
