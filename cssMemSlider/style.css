@@ -117,3 +117,38 @@ body {
     z-index: 1;
     transform: scale(1);
 }
+
+@media (max-width: 320px) {
+    .container {
+        height: 180px;
+        width: 300px;
+        margin: 10px auto 0;
+        position: relative;
+    }
+    .container .controls {
+        margin-left: 100px;
+        position: absolute;
+    }
+    .container label {
+        height: 8px;
+        width: 8px;
+        margin: 8px 8px 0 6px;
+    }
+    .container label::after {
+        height: 8px;
+        width: 8px;
+        left: -2px;
+        top: -2px;
+        border: 2px solid #ddd;
+    }
+    .titles {
+        height: 20px;
+        width: 320px;
+        top: 210px;
+    }
+    .title {
+        width: 320px;
+        margin-top: 2px;
+        font-size: 16px;
+    }
+}
